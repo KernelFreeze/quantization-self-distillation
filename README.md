@@ -12,7 +12,8 @@ An experiment that finetunes a quantized (FP8/INT8/INT4 and GGML quants like q8_
 
 ```
 uv run main.py \
-    --model_name meta-llama/Llama-3.1-8B \
-    --quantization fp8 \
-    --output_dir ./distilled_model
+      --model_name Qwen/Qwen3.5-2B \
+      --quantization ggml_q4km \
+      --use_self_generated_data \
+      --output_dir ./distilled_model
 ```
