@@ -1,6 +1,6 @@
 # Quantization Self-Distillation for LLMs
 
-An experiment that finetunes a quantized (FP8/INT8/INT4 and GGLM quants like q8_0 and q4_km) model to recover accuracy by distilling from the original FP16/BF16 model's outputs.
+An experiment that finetunes a quantized (FP8/INT8/INT4 and GGML quants like q8_0 and q4_km) model to recover accuracy by distilling from the original FP16/BF16 model's outputs.
 
 ## Main hypothesis
 
